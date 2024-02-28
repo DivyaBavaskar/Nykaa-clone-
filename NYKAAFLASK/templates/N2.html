@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./static/nykaa.css">  -->
+    <style>
+        *{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Mukta',sans-serif;
+    /* font-family: 'Mulish', sans-serif; */
+}
+.f-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(252, 155, 171);
+    padding: 18px;
+}
+ .feature{
+    display: flex;
+ } 
+ .f-nav.feature.app{
+    display: flex;
+    margin-inline: 25px;
+ }
+.feature.app.i{
+    margin-inline: 15px;
+    padding: 5%;
+}
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+}
+.sec-nav.nykaa-bar.img{
+    margin-inline: 22px;
+}
+.sec-nav ul li img{
+    width: 8%;
+    margin-left: 22px;
+    
+}
+.sec-nav ul li a{
+    margin-inline: 22px;
+     font-family: 'Mulish', sans-serif;
+}
+.sec-nav.input{
+ display: flex;
+}
+.sec-nav.input button{
+    margin-inline: 22px;
+
+}
+.sec-nav.input i{
+    width: 220px;
+    background-color: rgb(205, 197, 197);
+    border:none;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+}
+.sec-nav .input button{
+    width: 80px;
+    height: 35px;
+    background-color: rgb(249, 61, 92);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+.items ul li a{
+    list-style: none;
+    margin-inline: 22px;
+    text-align: center;
+}
+.items ul li button{
+    width: 100px;
+    height: 34px;
+    background-color: rgb(249, 61, 92);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+.items ul li{
+    list-style: none;
+
+}
+.main-img{
+    width: 150%;
+}
+.pink img{
+    width: 100%;
+}
+.pink h2{
+    text-align: center;
+    padding: 3px;
+}
+.Brands h2{
+    text-align: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+   margin-top: 33px;
+   padding: 0%;
+}
+.card img{
+    margin-inline: 22px;
+    width: 44%;
+    justify-content: center;
+    padding: 5%;
+    
+}
+.BRANDS h2{
+    text-align: center;
+    padding: 22px;
+}
+.TOP.BRANDS{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.BRANDS img{
+    margin-inline: 22px;
+    width: 44%;
+}
+.ONLY-NYKAA h2{
+    text-align: center;
+    padding: 22px;
+}
+.ONLY{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.ONLY img{
+    width: 44%;
+    margin-inline: 22px;
+}
+.makeup{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 42px;
+}
+.makeup img{
+    width: 18%;
+    margin-inline: 18px;
+
+}
+.SPECIAL{
+    text-align: center;
+    padding-bottom: 5%;
+}
+.SPECIAL .CURATIONS{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+
+    
+}
+.CURATIONS img{
+    margin-inline: 22px ;
+    width: 44%;
+}
+.beauty h2{
+    text-align: center;
+    padding: 22px;
+}
+.beauty .advice{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around; 
+}
+.advice img{
+    margin-inline: 22px;
+    width: 44%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(152, 147, 147);
+}
+.footer .list{
+    flex-direction: column;
+}
+.footer.list ul li {
+    list-style: none;
+}
+.footer.list ul li a{
+    font-weight: 600;
+    font-size: 13px;
+}
+.footer.list ul li h2{
+    font-size: 18px;
+}
+.class1-nav.title{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 2%;
+
+}
+.title2{
+    font-size: x-large;
+    padding: 2%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    font-style:initial ;
+    background-color: rgb(233, 24, 114);
+}
+.title3{
+    padding: 2%;
+    padding-top: 0%;
+    background-color: rgb(233, 24, 114);
+}
+.discount img{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 2%;
+    padding-left: 0%;
+    width: 100%;
+}
+
+.itemsbar1{
+    padding: 7%;
+    justify-content: space-around;
+    width: fit-content;
+    size: 5px;
+    padding-bottom: 2%;
+    margin-inline: 22px;
+}
+
+.itemsbar2{
+    padding: 7%;
+    justify-content: space-around;
+    width: fit-content;
+    size: 5px;
+    padding-top: 0%;
+    margin-inline: 22px;
+}
+
+.Love1{
+    font-size:xx-large;
+    padding: 2%;
+    padding-bottom: 1%;
+    background-color: rgb(233, 24, 114);
+    display: flex;
+    justify-content: center;
+    color: lightpink;
+}
+.Love2{
+    font-size:medium;
+    padding: 2%;
+    padding-top: 1%;
+    background-color: rgb(233, 24, 114);
+    justify-content: center;
+    display: flex;
+    color: lightpink;
+
+}
+.box1 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 42px;
+}
+
+    </style>
+
+    <script src="https://kit.fontawesome.com/e3f4126691.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mukta:wght@200;300;400;500;600;700;800&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">    
+
+</head>
+
+<body>
+    <nav class="f-nav">
+        <p>BEAUTY BANANZA Get Your Daily Dose Of Amazing Deals </p>
+        <div class="feature">
+            <div class="app">
+            <i class="fa-solid fa-mobile-screen"></i> 
+             <p>Get app</p>
+            </div>
+    
+            <div class="app">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Store & Events</p>
+            </div>
+    
+            <div class="app">
+                <i class="fa-solid fa-gift"></i>
+                <p>Gift Card</p>
+            </div>
+    
+            <div class="app">
+                <i class="fa-solid fa-circle-question"></i>
+                <p>Help</p>
+            </div>
+        </div>
+    </nav>
+
+    <nav class=" sec-nav">
+        <div class="nykaa-bar">
+            
+            <ul>
+                <li>
+                    <img src="https://logos-download.com/wp-content/uploads/2021/01/Nykaa_Logo-2048x669.png" style="inline-size: 10%;" alt="">
+                    <a>Categories</a>
+                    <a>Brands</a>
+                    <a>Luxe</a>
+                    <a>Nykaa Fashion</a>
+                    <a>Beauty Advice</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="input">
+            <input type="text" placeholder="Search Nykaa"> 
+           <button><a href="/templates/N1.html">Sign in</a></button>
+          
+        </div>
+    </nav>
+    <div class="items">
+        <ul>
+            <li>
+                <a href="/templates/N3.html">Makeup</a></select>  
+                <a>Skin</a>
+                <a>Hair</a>
+                <a>Appliances</a>
+                <a>Bath & Body</a>
+                <a> Natural</a>
+                <a>Mom & Body</a>
+                <a>men</a>
+                <a>Fragrance</a>
+                <a>Pop Ups</a>
+                <button>OFFERS</button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="main-img">
+        <img style="width: 67%;" src="https://images-static.nykaa.com/uploads/1ce27b38-ac2a-4e91-a790-97672cc683cf.jpg?tr=w-1200%2Ccm-pad_resize" alt="">
+    </div>
+
+    <div class="pink sale">
+        <h2>PINK FRIDAY SALE- COMING SOON!</h2>
+    <img src="https://images-static.nykaa.com/uploads/a930a1f4-7e0e-4595-8f72-99b277155d0e.jpg?tr=w-1200%2Ccm-pad_resize" alt="">
+    </div>
+
+    <div class="card">
+        <img src="https://images-static.nykaa.com/uploads/321e3b5f-811e-42c5-8975-d75ed11c43d3.jpg?tr=w-600%2Ccm-pad_resize" alt="">
+        <img src="https://images-static.nykaa.com/uploads/239f5044-25fc-482a-9945-90962e90af64.jpg?tr=w-600%2Ccm-pad_resize" alt="">
+    </div>
+
+    <div class="BRANDS">
+        <h2>TOP BRANDS</h2>
+        <BR>
+        <div class="TOP BRANDS">
+            <img src="https://images-static.nykaa.com/uploads/b5cdbf6a-4718-45b0-aa68-fe7b47c04fc6.jpg?tr=w-600%2Ccm-pad_resize" alt="">
+            <img src="https://images-static.nykaa.com/uploads/0aec124f-2a1f-4fc5-9962-bcd6d5d1fb83.jpg?tr=w-600%2Ccm-pad_resize" alt="">
+        
+        </div>
+    </div>
+      <div class="ONLY-NYKAA">
+        <H2>ONLY AT NYKAA</H2>
+        <BR>
+        <div class="ONLY">
+        <img src="https://images-static.nykaa.com/uploads/8900d9c0-5ab0-4659-99f9-1546151d6a3c.jpg?tr=w-600%2Ccm-pad_resize" alt="" >
+        <img src="https://images-static.nykaa.com/uploads/008b4a3d-589a-4ac4-80d5-66e7e10c6ade.jpg?tr=w-600%2Ccm-pad_resize" alt="" >
+         </div>
+    </div>
+
+    <div class="makeup">
+        <img src="https://images-static.nykaa.com/uploads/4e16dd68-a3c4-49b8-827b-436df563ea5c.jpg?tr=w-300%2Ccm-pad_resize" alt="">
+        <img src="https://images-static.nykaa.com/uploads/33052185-0758-488b-8048-40e4077e24de.jpg?tr=w-300%2Ccm-pad_resize" alt="">
+        <img src="https://images-static.nykaa.com/uploads/1d7a3689-364c-447c-ad0e-b1ea201e94a6.jpg?tr=w-300%2Ccm-pad_resize" alt="">
+        <img src="https://images-static.nykaa.com/uploads/6751f065-5db9-4be1-9a6d-2303286de1b9.jpg?tr=w-300%2Ccm-pad_resize" alt="">
+    </div>
+
+    <div class="SPECIAL">
+    <h2>SPECIAL CURATIONS</h2> <BR>
+    <DIV class="CURATIONS">
+        <img src="https://images-static.nykaa.com/uploads/e2bf223b-ba25-4417-833d-8d864cbdd299.jpg?tr=w-600%2Ccm-pad_resize" alt="" >
+        <img src="https://images-static.nykaa.com/uploads/b32ddcf1-b431-4819-8eda-05959b32d131.gif?tr=w-600%2Ccm-pad_resize" alt="" >
+    </DIV>
+
+    <div class="beauty">
+        <h2>BEAUTY ADVICE</h2>
+        <div class="advice">
+            <img src="https://images-static.nykaa.com/uploads/e6ae051f-56e7-4079-93e4-b844af6e1d49.jpg?tr=w-600%2Ccm-pad_resize" alt="">
+            <img src="https://images-static.nykaa.com/uploads/d00c3ab0-1fd6-4fa2-9830-1c1df3105dbb.png?tr=w-600%2Ccm-pad_resize" alt="">
+        </div>
+    </div>
+
+    <div class="footer">
+        <ul>
+            <li>
+                <a>Who are we? Careers</a>
+                <a>Authenticity</a><br>
+                <a>Press</a><br>
+                <a>Teastimonials</a>
+            
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <h2>Help</h2>
+                <a>Who are we? Careers</a><br>
+                <a>Authenticity</a><br>
+                <a>Press</a><br>
+                <a>Teastimonials</a>
+            
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <h2>Inspire Me</h2>
+                <a>Who are we? Careers</a><br>
+                <a>Authenticity</a><br>
+                <a>Press</a><br>
+                <a>Teastimonials</a>
+            
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <h2>Quick Links</h2>
+                <a>Who are we? Careers</a><br>
+                <a>Authenticity</a><br>
+                <a>Press</a><br>
+                <a>Teastimonials</a>
+            
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <h2>Top Categories</h2>
+                <a>Who are we? Careers</a><br>
+                <a>Authenticity</a><br>
+                <a>Press</a><br>
+                <a>Teastimonials</a>
+            
+            </li>
+        </ul>
+    </div>
+
+    
+</body>
+</html>
